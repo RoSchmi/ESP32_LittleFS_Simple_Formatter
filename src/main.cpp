@@ -37,7 +37,7 @@ if (!FileFS.begin(true, "/littlefs", 10, "spiffs"))
 
   if (success)
   {
-    Serial.println("\r\n\r\nSuccess: LittleFS is working!.");
+    Serial.println("\r\n\r\nSuccess: LittleFS is working!!");
   }
   else
   {
